@@ -1,1 +1,3 @@
-# frontend-admin-dashboard
+# Frontend Admin Dashboard
+
+Created using CSS Grid, Flexbox, HTML
