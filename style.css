@@ -11,7 +11,7 @@ li {
 body {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 15% 85%;
 }
 
 #dashboard {
@@ -39,6 +39,7 @@ body {
 
 #dashTitle {
     font-size: 25px;
+    margin-left: 10px;
 }
 
 img {
@@ -75,4 +76,143 @@ img {
 a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+#profileHeader {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    height: 20vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+#profileTopRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+
+#profileTopRight > img {
+    width: 30px;
+    height: 30px;
+}
+
+#profileBottomLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+#profileWords {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#hiThere {
+    margin-bottom: 0;
+}
+
+#profileWord {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+#profileButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+
+button {
+    background-color: mistyrose;
+    border: mistyrose;
+    border-radius: 15px;
+    font-size: 20px;
+    min-width: 75px;
+    min-height: 30px;
+}
+
+button:hover {
+    background-color: mediumvioletred;
+    color: white;
+}
+
+i {
+    margin-right: 15px;
+}
+
+#mainContent {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.allProjects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 6% 31.33% 31.33% 31.33%;
+}
+
+#projectTitle {
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+}
+
+.allAnnouncements {
+    display: grid;
+    grid-template-rows: 5% 40% 6% 39%;
+}
+
+.projectCard {
+    background-color: white;
+    width: 85%;
+    height: 80%;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.announcementsCard {
+    background-color: white;
+    width: 90%;
+    height: 105%;
+    border-radius: 15px;
+}
+
+.trendingCard {
+    background-color: white;
+    width: 90%;
+    height: 110%;
+    border-radius: 15px;
+}
+
+.personProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
