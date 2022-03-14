@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+
+* {
+    font-family: 'Smooch Sans', sans-serif;
+}
 li {
     list-style: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 20% 80%;
+}
+
+#dashboard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: mistyrose;
+}
+
+#profileHeader {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#mainContent {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #eee;
+}
+
+#logoSeparate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#dashTitle {
+    font-size: 25px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+#dashList1 li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#dashList2 li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#dashList1 i, #dashList2 i {
+    margin-right: 10px;
+}
+
+#dashList2 {
+    margin-top: 50px;
+}
+
+#search {
+    width: 375px;
+    height: 25px;
+    background: #eee;
+    border: #eee;
+    border-radius: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
